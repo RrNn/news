@@ -1,0 +1,41 @@
+@import './nav';
+@import './container';
+
+body {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  a {
+    color: #444;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+  margin: 0;
+  background-color: #fff;
+  color: #444;
+  // background-color: #00b1b3;
+  font-family: SourceSansPro, sans-serif;
+  .Logo {
+    a {
+      color: #000 !important;
+    }
+  }
+  .loader-image {
+    background: url('../images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 5rem;
+    div {
+      background-color: #1189;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: calc(100vh + 5rem);
+    }
+  }
+}
