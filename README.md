@@ -2,7 +2,7 @@
 
 #### To run the app
 
-###### First, you'll need to have Node installed
+###### First, you'll need to have Node installed.
 
 - Clone the repo
 - cd `news`
